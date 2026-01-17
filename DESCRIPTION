@@ -1,0 +1,19 @@
+Package: overseer
+Type: Package
+Title: Use LLMs to see what you are doing and create a log of activity
+Version: 0.1.0
+Authors@R: person(
+    given = "Hugo",
+    family = "Rzepian Teixeira",
+    email = "hugorteixeira@senhormercado.com.br",
+    role = c("aut", "cre"))
+Description: A screen-activity observer that captures visual changes,
+    asks genflow-powered LLMs to describe what you are doing, and
+    writes timestamped logs plus a yearly timeline.
+Encoding: UTF-8
+License: GPL (>= 3)
+Imports:
+    genflow,
+    magick
+LazyData: true
+RoxygenNote: 7.3.2
