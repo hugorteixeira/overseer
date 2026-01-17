@@ -30,6 +30,15 @@ overseer(
 
 - `scrot` available in PATH (the function will try to install it on Linux)
 - R packages: `magick`, `genflow`
+- Install genflow: `remotes::install_github("hugorteixeira/genflow")`
+
+## Install 🧪
+
+```r
+install.packages("magick")
+install.packages("remotes")
+remotes::install_github("hugorteixeira/genflow")
+```
 
 ## How it works 🧠
 
@@ -81,6 +90,8 @@ Notes:
 - Use `debug = TRUE` to see change fractions and save debug frames.
 - If nothing triggers, it usually means the change threshold is too high.
 
+Have fun exploring your own "screen timeline" 👀
+
 ---
 
-Have fun exploring your own "screen timeline" 👀
+<p align="center">Built with love and energy drinks for the R community 💙⚡</p>
